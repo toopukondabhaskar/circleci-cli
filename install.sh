@@ -46,7 +46,7 @@ fi
 RELEASE_URL="https://github.com/CircleCI-Public/circleci-cli/releases/download/v${VERSION}/circleci-cli_${VERSION}_${OS}_amd64.tar.gz"
 
 # Download & unpack the release tarball.
-curl -sL --retry 3 $RELEASE_URL | tar zx --strip 1
+curl -sL --retry 3 "${RELEASE_URL}" | tar zx --strip 1
 
 echo "Installing to $DESTDIR"
 mv circleci "$DESTDIR"
