@@ -3,7 +3,7 @@
 # Install the CircleCI CLI tool.
 # https://github.com/CircleCI-Public/circleci-cli
 #
-# Dependancies: curl, cut
+# Dependencies: curl, cut
 #
 # The version to install and the binary location can be passed in via VERSION and DESTDIR respectively.
 #
